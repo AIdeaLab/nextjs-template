@@ -8,8 +8,8 @@
     "packages/*"
   ],
   "engines": {
-    "node": "^16",
-    "pnpm": "^8"
+    "node": "^18",
+    "pnpm": "^9"
   },
   "scripts": {
     "dev": "pnpm --prefix apps/web dev",
@@ -17,10 +17,10 @@
     "fix": "turbo run fix"
   },
   "devDependencies": {
-    "eslint": "^8.42.0",
+    "eslint": "^9.3.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.8.8",
-    "turbo": "^1.10.1",
-    "typescript": "5.1.3"
+    "prettier": "^3.2.5",
+    "turbo": "^1.13.3",
+    "typescript": "5.4.5"
   }
 }
